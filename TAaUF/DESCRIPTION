@@ -1,0 +1,13 @@
+Package: TAaUF
+Type: Package
+Title: Technical Analysis and Useful Functions
+Version: 0.1.0
+Author: Michele (Lello) Stasulli
+Maintainer: Michele (Lello) Stasulli <michele.stasulli@libero.it>
+Description: This package is aimed at developing and analysing trading strategies on financial markets, and at checking out how well trading strategies work. Furthermore, it contains other useful functions to optimize some classical trading strategies such as moving average crossover and others, plus a special function able to control the time working interval.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: xts (>= 0.9-7), PerformanceAnalytics, TTR
+Depends: xts
+RoxygenNote: 6.0.1
